@@ -24,7 +24,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nombre del alumno: "
+                android:text="Alumno:Vazquez Garcia Carol"
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 android:paddingLeft="10dp"
@@ -36,7 +36,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Matricula: "
+                android:text="Matricula: 2021030075"
                 android:textColor="@color/white"
                 android:textSize="15dp"
                 android:paddingLeft="10dp"
@@ -48,7 +48,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Materia"
+                android:text="Materia: Programación Movil"
                 android:textColor="@color/white"
                 android:textSize="15dp"
                 android:paddingLeft="10dp"
