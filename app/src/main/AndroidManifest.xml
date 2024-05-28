@@ -13,6 +13,15 @@
         android:theme="@style/Theme.AppHolaMundo1"
         tools:targetApi="31">
         <activity
+            android:name=".CotizacionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cotizacionIngresoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cotizacionActivity"
+            android:exported="false" />
+        <activity
             android:name=".monedasActivity"
             android:exported="false" />
         <activity

@@ -7,6 +7,10 @@
         <item>Euros</item>
         <item>Libras</item>
 
-
     </array>
+
+    <string name="agencia">Toyota Mazatlna</string>
+    <string name="domicilio">Av, del Mar 1200</string>
+
+
 </resources>
