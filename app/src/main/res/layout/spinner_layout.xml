@@ -31,14 +31,14 @@
                 android:text="Categorias"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="@color/colorTitulo"/>
+                android:textColor="@color/mio"/>
 
             <TextView
                 android:id="@+id/lblDescripcion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Mensaje"
-                android:textColor="@color/colorSubtitulo"/>
+                android:textColor="@color/mio"/>
 
         </LinearLayout>
 
