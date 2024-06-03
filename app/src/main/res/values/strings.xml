@@ -13,4 +13,19 @@
     <string name="domicilio">Av, del Mar 1200</string>
 
 
+    <string name="itemFrappses">Categorias Frappses</string>
+    <string name="itemAgradecimiento">Agradecimientos</string>
+    <string name="itemAmor">Amor</string>
+    <string name="itemNewYear">Año Nuevo</string>
+    <string name="itemCanciones">Canciones</string>
+
+    <string name="msgFrapses">Desplegar</string>
+    <string name="msgAgradecimiento">Prueba dar las gracias</string>
+    <string name="msgAmor">Enamorar con estas frases</string>
+    <string name="msgNewYear">Felicita el año nuevo</string>
+    <string name="msgCanciones">Escucha solo lo mejor</string>
+    <string name="msgSeleccionado">Se ha seleccionado</string>
+
+    <string name="Descripcion">Seleccione una categoria</string>
+
 </resources>
