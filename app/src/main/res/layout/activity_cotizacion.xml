@@ -7,172 +7,148 @@
     android:layout_height="match_parent"
     tools:context=".CotizacionActivity">
 
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="-90dp"
-        tools:layout_editor_absoluteY="0dp">
+        tools:ignore="MissingConstraints">
 
         <TextView
-            android:id="@+id/txtUsuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="120dp"
+            android:id="@+id/txtUsuario"
             android:layout_marginTop="4dp"
             android:text="Usuario">
-
         </TextView>
 
         <TextView
-            android:id="@+id/txtFolio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
+            android:id="@+id/txtFolio"
             android:text="Folio: "
-            android:textColor="@color/mio">
-
+            android:textColor="@color/toyota">
         </TextView>
 
         <EditText
-            android:id="@+id/txtDescribir"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
+            android:id="@+id/txtDescripcion"
+            android:hint="Descripcion del Auto"
             android:gravity="center"
-            android:hint="Descripcion del Auto">
-
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
         </EditText>
 
         <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:id="@+id/txtValor"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:hint="Valor Automovil"
+            android:gravity="center"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:gravity="center"
-            android:hint="Valor Automovil"
             android:inputType="number"
             android:padding="20dp">
-
         </EditText>
-
 
         <EditText
-            android:id="@+id/txtPorPagoInicial"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/txtPorPagoInicial"
+            android:hint="Porcentaje Pago Inicial"
+            android:gravity="center"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:gravity="center"
-            android:hint="Porcentaje Pago Incial"
             android:inputType="number"
             android:padding="20dp">
-
         </EditText>
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-
-            <RadioButton
-                android:id="@+id/rdb12"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:checked="true"
-                android:text="12 Meses">
+                android:orientation="vertical">
 
-            </RadioButton>
 
-            <RadioButton
-                android:id="@+id/rdb24"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="24 Meses">
+                <RadioButton
+                    android:id="@+id/rdb12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="12 Meses">
 
-            </RadioButton>
+                </RadioButton>
 
-            <RadioButton
-                android:id="@+id/rdb36"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="36 Meses">
+                <RadioButton
+                    android:id="@+id/rdb24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="24 Meses">
 
-            </RadioButton>
+                </RadioButton>
 
-            <RadioButton
-                android:id="@+id/rdb48"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="48 Meses">
+                <RadioButton
+                    android:id="@+id/rdb36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="36 Meses">
 
-            </RadioButton>
+                </RadioButton>
 
-        </LinearLayout>
+                <RadioButton
+                    android:id="@+id/rdb48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="48 Meses">
+
+                </RadioButton>
+
+            </LinearLayout>
 
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal">
-
+            android:orientation="horizontal"
+            android:gravity="center">
             <Button
-                android:id="@+id/btbCalcular"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:id="@+id/BtnCalcular"
                 android:text="Calcular">
-
             </Button>
-
             <Button
-                android:id="@+id/btbLimpiar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:id="@+id/BtnLimpiar"
                 android:text="Limpiar">
-
             </Button>
-
             <Button
-                android:id="@+id/btbRegresar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:id="@+id/BtnCerrar"
                 android:text="Regresar">
-
             </Button>
-
         </LinearLayout>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/txtPagoInicial"
-            android:text="Pago inicial: $"
             android:layout_marginLeft="10dp"
+            android:text="Pago Inicial: $"
             android:textColor="@color/toyota"
             android:textSize="16dp"
             android:paddingTop="10dp">
-
         </TextView>
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/txtPagoMensual"
-            android:text="Pago Mensual: $"
             android:layout_marginLeft="10dp"
+            android:text="Pago Mensual: $ "
             android:textColor="@color/toyota"
             android:textSize="16dp"
             android:paddingTop="10dp">
-
         </TextView>
-
 
     </LinearLayout>
 
